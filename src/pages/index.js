@@ -2,6 +2,10 @@ import styles from "../styles/page.module.css";
 
 export default function Home() {
     return (
-        <main className={styles.main}></main>
+        <main className={styles.main}>
+            <div>
+                <img src="/menu.jpg" />
+            </div>
+        </main>
     );
 }

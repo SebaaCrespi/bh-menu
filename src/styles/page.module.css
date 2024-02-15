@@ -1,11 +1,16 @@
 .main{
-    background-image: url('../../public/menu.jpg');
-    background-size: cover;
+    background-color: black;
     height: 100vh;
     width: 100%;
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
+}
+
+.main div{
+    background-color: black;
+    width: 100%;
 }
 
 .qrcode{
