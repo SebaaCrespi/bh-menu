@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import styles from "./globals.css";
+import "./globals.css";
 
 //const inter = Inter({ subsets: ["latin"] });
 
@@ -10,8 +10,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={styles.body}>
+    <html lang="en" >
+      <body style={{ margin: 0 }}>
           {children}
       </body>
     </html>

@@ -4,7 +4,10 @@ export default function Home() {
     return (
         <main className={styles.main}>
             <div>
-                <img src="/menu.jpg" />
+                <img src="/bh-menu-comidas.jpg"/>
+            </div>
+            <div>
+                <img src="/bh-menu-tragos.jpg"/>
             </div>
         </main>
     );

@@ -6,10 +6,15 @@
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main div{
     background-color: black;
+    width: 100%;
+}
+
+.main div img {
     width: 100%;
 }
 
